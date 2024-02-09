@@ -1,0 +1,42 @@
+
+
+git init
+-------------we initialize to create local repository,,
+
+git status
+-----------check whether file or directories tracked or not(stagged or not)
+
+git add .
+   or
+git add filename.extension
+----------------ready to convert from untrackked files into trackked file
+
+git status
+--------------check again files & folders trackked or not
+
+git config --global user.name "ajayreddy"
+----------------Enter username of the git
+
+
+git config --global user.mail  "ajay4ugit@gmail.com"
+---------------Enter registered mail of the git
+
+git commit -m "commit message"
+-------------Here files&folders changed from staged area into local repository
+
+git remote add origin URL(github repository)
+Ex:
+git remote add origin https://github.com/ajay4ugit/gitCommands.git
+------------Here we add github url 
+
+git push -u origin master
+---------------finally we are going to push project from local reposiotry to
+                central repository
+
+-------------------------------------
+
+clone():
+===========
+git clone githubURLProject
+-----------
+
